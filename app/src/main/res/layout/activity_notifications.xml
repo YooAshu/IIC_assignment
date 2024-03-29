@@ -1,0 +1,258 @@
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:background="#FFFFFFFF"
+	android:clipChildren="false"
+	android:clipToPadding="false"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+
+	android:layout_height="match_parent">
+	<ScrollView 
+		android:fillViewport="true"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:background="#FFFFFFFF"
+
+		android:clipChildren="false"
+		android:clipToPadding="false">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:clipChildren="false"
+			android:clipToPadding="false"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="30dp"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+
+				<ImageView
+					android:layout_width="28dp"
+					android:layout_height="28dp"
+					android:layout_marginEnd="1dp"
+					android:scaleType="fitXY" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Notifications"
+					android:textColor="#262626"
+					android:textSize="20sp" />
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:orientation="vertical"></LinearLayout>
+
+				<LinearLayout
+					android:layout_width="42dp"
+					android:layout_height="wrap_content"
+					android:background="@drawable/white_round_big"
+					android:orientation="vertical"
+					android:paddingHorizontal="7dp">
+
+					<ImageView
+						android:layout_width="match_parent"
+						android:layout_height="28dp"
+						android:background="@drawable/notification"
+						android:scaleType="fitXY" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="20dp"
+				android:layout_marginVertical="6dp"
+				android:background="@drawable/less_round_light"
+				android:clipChildren="false"
+				android:clipToPadding="false"
+				android:orientation="vertical"
+				android:paddingVertical="16dp"
+				android:paddingRight="20dp">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="20dp"
+					android:layout_marginBottom="13dp"
+					android:layout_weight="1"
+					android:text="Attention parents! The end-of-term exams are approaching. Ensure your child is prepared and review the exam schedule available on the app."
+					android:textColor="#2B2A30"
+					android:textSize="14sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center|end"
+					android:text="Jan 12, 2024"
+					android:textColor="#666666"
+					android:textSize="10sp" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="20dp"
+				android:layout_marginVertical="6dp"
+				android:background="@drawable/less_round_light"
+				android:clipChildren="false"
+				android:clipToPadding="false"
+				android:orientation="vertical"
+				android:paddingVertical="16dp"
+				android:paddingRight="20dp">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="20dp"
+					android:layout_marginBottom="13dp"
+					android:layout_weight="1"
+					android:text="As the seasons change, please ensure your child is dressed appropriately and carries necessary items like water bottles. Health is wealth!"
+					android:textColor="#2B2A30"
+					android:textSize="14sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center|end"
+					android:text="Jan 10, 2024"
+					android:textColor="#666666"
+					android:textSize="10sp" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="20dp"
+				android:layout_marginVertical="6dp"
+				android:background="@drawable/less_round_light"
+				android:clipChildren="false"
+				android:clipToPadding="false"
+				android:orientation="vertical"
+				android:paddingVertical="16dp"
+				android:paddingRight="20dp">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="20dp"
+					android:layout_marginBottom="13dp"
+					android:layout_weight="1"
+					android:text="A friendly reminder about upcoming fee payments. Access the app for convenient online payment options and ensure a hassle-free transaction."
+					android:textColor="#2B2A30"
+					android:textSize="14sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center|end"
+					android:text="Dec 28, 2023"
+					android:textColor="#666666"
+					android:textSize="10sp" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="20dp"
+				android:layout_marginVertical="6dp"
+				android:background="@drawable/less_round_light"
+				android:clipChildren="false"
+				android:clipToPadding="false"
+				android:orientation="vertical"
+				android:paddingVertical="16dp"
+				android:paddingRight="20dp">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="20dp"
+					android:layout_marginBottom="13dp"
+					android:layout_weight="1"
+					android:text="We're planning a fun and educational class outing. Kindly check the app for the permission slip and details. We look forward to an enjoyable day!"
+					android:textColor="#2B2A30"
+					android:textSize="14sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center|end"
+					android:text="Dec 28, 2023"
+					android:textColor="#666666"
+					android:textSize="10sp" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="20dp"
+				android:layout_marginVertical="6dp"
+				android:background="@drawable/less_round_light"
+				android:clipChildren="false"
+				android:clipToPadding="false"
+				android:orientation="vertical"
+				android:paddingVertical="16dp"
+				android:paddingRight="20dp">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="20dp"
+					android:layout_marginBottom="13dp"
+					android:layout_weight="1"
+					android:text="Your child's safety is our priority. We will be conducting emergency drills this 02/01/2024. Familiarize yourself with the safety procedures through the app."
+					android:textColor="#2B2A30"
+					android:textSize="14sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center|end"
+					android:text="Dec 27, 2023"
+					android:textColor="#666666"
+					android:textSize="10sp" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="20dp"
+				android:layout_marginTop="6dp"
+				android:layout_marginBottom="100dp"
+				android:background="@drawable/less_round_light"
+				android:clipChildren="false"
+				android:clipToPadding="false"
+				android:orientation="vertical"
+				android:paddingVertical="16dp"
+				android:paddingRight="20dp">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="20dp"
+					android:layout_marginBottom="13dp"
+					android:layout_weight="1"
+					android:text="Dear parents, don't miss the chance to discuss your child's progress. The next Parent-Teacher Meeting is scheduled for [date] at [time]. Mark your calendars!"
+					android:textColor="#2B2A30"
+					android:textSize="14sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center|end"
+					android:text="Dec 25, 2023"
+					android:textColor="#666666"
+					android:textSize="10sp" />
+			</LinearLayout>
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

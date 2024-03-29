@@ -1,0 +1,524 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_weight="1"
+	android:background="#FFFFFFFF"
+	android:clipChildren="false"
+	android:clipToPadding="false"
+	android:orientation="vertical">
+
+	<ScrollView
+		android:layout_width="match_parent"
+
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:background="#FFFFFFFF"
+		android:clipChildren="false"
+		android:clipToPadding="false"
+		android:fillViewport="true"
+		android:paddingTop="18dp"
+		android:paddingBottom="2dp">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:clipChildren="false"
+			android:clipToPadding="false"
+			android:orientation="vertical">
+
+			<LinearLayout
+
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="20dp"
+				android:layout_marginBottom="34dp"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+
+				<LinearLayout
+
+					android:layout_width="32dp"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:paddingHorizontal="7dp"
+					>
+
+
+				</LinearLayout>
+
+				<View
+					android:layout_width="0dp"
+					android:layout_height="0dp"
+					android:layout_weight="1" />
+
+				<LinearLayout
+
+					android:id="@+id/notification"
+					android:layout_width="32dp"
+					android:layout_height="wrap_content"
+					android:background="@drawable/notification"
+					android:orientation="vertical"
+					android:paddingHorizontal="7dp">
+
+
+				</LinearLayout>
+			</LinearLayout>
+
+			<TextView
+
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="28dp"
+				android:layout_marginBottom="4dp"
+				android:text="Welcome back,"
+				android:textColor="#262626"
+				android:textSize="12sp" />
+
+			<TextView
+
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="28dp"
+				android:layout_marginBottom="14dp"
+				android:text="Amit Patel"
+				android:textColor="#262626"
+				android:textSize="24sp" />
+
+			<androidx.constraintlayout.widget.ConstraintLayout
+
+				android:id="@+id/linearLayout"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_marginHorizontal="20dp"
+				android:layout_marginBottom="37dp"
+				android:background="@drawable/deep_violet"
+				android:elevation="50dp"
+				android:gravity="center"
+				android:paddingVertical="18dp">
+
+
+				<LinearLayout
+					android:id="@+id/linearLayout2"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:orientation="vertical"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toStartOf="@+id/relativeLayout"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent">
+
+					<TextView
+
+						android:id="@+id/textView"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="0dp"
+						android:layout_marginLeft="0dp"
+						android:layout_marginEnd="0dp"
+						android:layout_marginRight="0dp"
+						android:layout_marginBottom="0dp"
+						android:text="Attendance"
+						android:textColor="#FFFFFF"
+						android:textSize="12sp" />
+
+					<TextView
+
+						android:id="@+id/textView2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="0dp"
+						android:layout_marginLeft="0dp"
+						android:layout_marginBottom="0dp"
+						android:text="Jan 2024"
+						android:textColor="#FFFFFF"
+						android:textSize="20sp" />
+				</LinearLayout>
+
+				<RelativeLayout
+
+					android:id="@+id/relativeLayout"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="43dp"
+					android:layout_marginEnd="44dp"
+					android:background="@drawable/progress"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toEndOf="@+id/linearLayout2"
+					app:layout_constraintTop_toTopOf="parent">
+
+
+				</RelativeLayout>
+			</androidx.constraintlayout.widget.ConstraintLayout>
+
+			<TextView
+
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="28dp"
+				android:layout_marginBottom="9dp"
+				android:text="Quick Links"
+				android:textColor="#08150E"
+				android:textSize="16sp" />
+
+			<LinearLayout
+
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="20dp"
+				android:layout_marginBottom="35dp"
+				android:background="@drawable/light_violet"
+				android:orientation="vertical"
+				android:paddingHorizontal="23dp"
+				android:paddingVertical="20dp">
+
+				<LinearLayout
+
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="17dp"
+					android:gravity="center_vertical"
+					android:orientation="horizontal">
+
+					<RelativeLayout
+
+						android:layout_width="38dp"
+						android:layout_height="wrap_content"
+						android:id="@+id/report"
+						android:background="@drawable/report">
+
+
+
+
+					</RelativeLayout>
+
+					<View
+						android:layout_width="0dp"
+						android:layout_height="0dp"
+						android:layout_weight="1" />
+
+					<RelativeLayout
+						android:layout_width="38dp"
+						android:layout_height="wrap_content"
+						android:background="@drawable/syllabus"
+						>
+
+
+
+					</RelativeLayout>
+
+					<View
+						android:layout_width="0dp"
+						android:layout_height="0dp"
+						android:layout_weight="1" />
+
+					<RelativeLayout
+						android:layout_width="38dp"
+						android:layout_height="wrap_content"
+						android:background="@drawable/unittest">
+
+
+					</RelativeLayout>
+
+					<View
+						android:layout_width="0dp"
+						android:layout_height="0dp"
+						android:layout_weight="1" />
+
+					<RelativeLayout
+						android:layout_width="38dp"
+						android:layout_height="wrap_content"
+						android:background="@drawable/payment">
+
+
+					</RelativeLayout>
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center_vertical"
+					android:orientation="horizontal">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Report"
+						android:textColor="#666666"
+						android:textSize="13sp" />
+
+					<View
+						android:layout_width="0dp"
+						android:layout_height="0dp"
+						android:layout_weight="1" />
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Syllabus"
+						android:textColor="#666666"
+						android:textSize="13sp" />
+
+					<View
+						android:layout_width="0dp"
+						android:layout_height="0dp"
+						android:layout_weight="1" />
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Unit Test"
+						android:textColor="#666666"
+						android:textSize="13sp" />
+
+					<View
+						android:layout_width="0dp"
+						android:layout_height="0dp"
+						android:layout_weight="1" />
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Payment"
+						android:textColor="#666666"
+						android:textSize="13sp" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="29dp"
+				android:layout_marginBottom="15dp"
+				android:text="Upcoming Events (04)"
+				android:textColor="#08150E"
+				android:textSize="16sp" />
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="20dp"
+				android:layout_marginBottom="10dp"
+				android:background="@drawable/small_light"
+				android:clipChildren="false"
+				android:clipToPadding="false"
+				android:gravity="center_vertical"
+				android:orientation="horizontal"
+				android:paddingHorizontal="10dp"
+				android:paddingVertical="14dp">
+
+				<LinearLayout
+					android:layout_width="20dp"
+					android:layout_height="20dp"
+					android:layout_marginEnd="3dp"
+					android:background="@drawable/event1"
+					android:scaleType="fitXY"
+					android:src="@mipmap/ic_launcher" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:text="Science Fair Showcase"
+					android:textColor="#08150E"
+					android:textSize="14sp" />
+
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:clipChildren="false"
+					android:clipToPadding="false"
+					android:gravity="center"
+					android:orientation="vertical">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="JAN"
+						android:textColor="#08150E"
+						android:textSize="10sp" />
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="18"
+						android:textColor="#08150E"
+						android:textSize="24sp" />
+
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="20dp"
+				android:layout_marginBottom="10dp"
+				android:background="@drawable/small_light"
+				android:clipChildren="false"
+				android:clipToPadding="false"
+				android:gravity="center_vertical"
+				android:orientation="horizontal"
+				android:paddingHorizontal="10dp"
+				android:paddingVertical="14dp">
+
+				<LinearLayout
+					android:background="@drawable/event2"
+					android:layout_width="20dp"
+					android:layout_height="20dp"
+					android:layout_marginEnd="4dp"
+					android:scaleType="fitXY"
+					android:src="@mipmap/ic_launcher" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Math Olympiad"
+					android:textColor="#08150E"
+					android:textSize="14sp"
+					android:layout_weight="1"/>
+
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:clipChildren="false"
+					android:clipToPadding="false"
+					android:gravity="center"
+					android:orientation="vertical">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="JAN"
+						android:textColor="#08150E"
+						android:textSize="10sp" />
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="24"
+						android:textColor="#08150E"
+						android:textSize="24sp" />
+
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="20dp"
+				android:layout_marginBottom="10dp"
+				android:background="@drawable/small_light"
+				android:clipChildren="false"
+				android:clipToPadding="false"
+				android:gravity="center_vertical"
+				android:orientation="horizontal"
+				android:paddingHorizontal="10dp"
+				android:paddingVertical="14dp">
+
+				<LinearLayout
+					android:background="@drawable/event3"
+					android:layout_width="20dp"
+					android:layout_height="20dp"
+					android:layout_marginEnd="4dp"
+					android:scaleType="fitXY"
+					android:src="@mipmap/ic_launcher" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Sports Day Extravaganza"
+					android:textColor="#08150E"
+					android:textSize="14sp"
+					android:layout_weight="1"/>
+
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:clipChildren="false"
+					android:clipToPadding="false"
+					android:gravity="center"
+					android:orientation="vertical">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="JAN"
+						android:textColor="#08150E"
+						android:textSize="10sp" />
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="31"
+						android:textColor="#08150E"
+						android:textSize="24sp" />
+
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="20dp"
+				android:layout_marginBottom="100dp"
+				android:background="@drawable/small_light"
+				android:clipChildren="false"
+				android:clipToPadding="false"
+				android:gravity="center_vertical"
+				android:orientation="horizontal"
+				android:paddingHorizontal="10dp"
+				android:paddingVertical="14dp">
+
+				<LinearLayout
+					android:background="@drawable/event4"
+					android:layout_width="20dp"
+					android:layout_height="20dp"
+					android:layout_marginEnd="4dp"
+					android:scaleType="fitXY"
+					android:src="@mipmap/ic_launcher" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Art Exhibition"
+					android:textColor="#08150E"
+					android:textSize="14sp"
+					android:layout_weight="1"/>
+
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:clipChildren="false"
+					android:clipToPadding="false"
+					android:gravity="center"
+					android:orientation="vertical">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="FEB"
+						android:textColor="#08150E"
+						android:textSize="10sp" />
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="03"
+						android:textColor="#08150E"
+						android:textSize="24sp" />
+
+				</LinearLayout>
+			</LinearLayout>
+
+
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>

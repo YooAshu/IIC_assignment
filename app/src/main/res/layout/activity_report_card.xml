@@ -1,0 +1,173 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:background="#FFFFFFFF"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<ScrollView
+		android:fillViewport="true"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:background="#FFFFFFFF"
+		android:paddingTop="18dp"
+		>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="20dp"
+				android:layout_marginBottom="29dp"
+				android:gravity="center"
+				android:orientation="horizontal">
+
+
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Report "
+					android:textColor="#262626"
+					android:textSize="20sp" />
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:orientation="vertical"></LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/notification"
+					android:layout_width="42dp"
+					android:layout_height="wrap_content"
+					android:background="@drawable/white_round_big"
+					android:orientation="vertical"
+					android:paddingHorizontal="7dp">
+
+					<ImageView
+						android:layout_width="match_parent"
+						android:layout_height="28dp"
+						android:background="@drawable/notification"
+						android:scaleType="fitXY" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="20dp"
+				android:layout_marginVertical="10dp"
+				android:background="@drawable/strokeviolet"
+				android:gravity="center_vertical"
+				android:orientation="horizontal"
+				android:padding="16dp">
+
+				<RelativeLayout
+					android:layout_width="38dp"
+					android:layout_height="38dp"
+					android:layout_marginEnd="17dp"
+					android:background="@drawable/file">
+				</RelativeLayout>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Mid-terms9324.pdf"
+					android:textColor="#344053"
+					android:textSize="14sp" />
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:orientation="vertical"></LinearLayout>
+
+				<ImageView
+					android:layout_width="24dp"
+					android:layout_height="24dp"
+					android:scaleType="fitXY"
+					android:background="@drawable/download"/>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="20dp"
+				android:layout_marginVertical="10dp"
+				android:background="@drawable/strokeviolet"
+				android:gravity="center_vertical"
+				android:orientation="horizontal"
+				android:padding="16dp">
+
+				<RelativeLayout
+					android:layout_width="38dp"
+					android:layout_height="38dp"
+					android:layout_marginEnd="17dp"
+					android:background="@drawable/file">
+				</RelativeLayout>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Unit-test1_9324.pdf"
+					android:textColor="#344053"
+					android:textSize="14sp" />
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:orientation="vertical"></LinearLayout>
+
+				<ImageView
+					android:layout_width="24dp"
+					android:layout_height="24dp"
+					android:scaleType="fitXY"
+					android:background="@drawable/download"/>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="20dp"
+				android:layout_marginVertical="10dp"
+				android:background="@drawable/strokeviolet"
+				android:gravity="center_vertical"
+				android:orientation="horizontal"
+				android:padding="16dp">
+
+				<RelativeLayout
+					android:layout_width="38dp"
+					android:layout_height="38dp"
+					android:layout_marginEnd="17dp"
+					android:background="@drawable/file">
+				</RelativeLayout>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Unit-test2_9324.pdf"
+					android:textColor="#344053"
+					android:textSize="14sp" />
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:orientation="vertical"></LinearLayout>
+
+				<ImageView
+					android:layout_width="24dp"
+					android:layout_height="24dp"
+					android:scaleType="fitXY"
+					android:background="@drawable/download"/>
+			</LinearLayout>
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
